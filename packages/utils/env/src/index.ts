@@ -1,0 +1,1 @@
+export { parseEnvironment } from './parser';

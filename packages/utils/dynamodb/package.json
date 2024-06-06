@@ -1,0 +1,19 @@
+{
+	"name": "@weekly-cbx/utils-dynamodb",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"test": "sst bind vitest",
+		"typecheck": "tsc -noEmit"
+	},
+	"dependencies": {
+		"string-ts": "^2.1.1",
+		"valibot": "^0.31.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"sst": "2.42.0",
+		"type-fest": "^4.18.3",
+		"vitest": "^1.6.0"
+	}
+}

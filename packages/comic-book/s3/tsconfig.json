@@ -1,0 +1,17 @@
+{
+	"extends": [
+		"@tsconfig/strictest/tsconfig.json",
+		"@tsconfig/node20/tsconfig.json"
+	],
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"],
+			"#/valibot": ["../valibot/src"],
+			"#/utils/s3": ["../../utils/s3/src"],
+			"#/utils/hexid": ["../../utils/hexid/src"]
+		}
+	}
+}

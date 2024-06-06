@@ -1,0 +1,17 @@
+{
+	"extends": [
+		"@tsconfig/strictest/tsconfig.json",
+		"@tsconfig/node20/tsconfig.json"
+	],
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"baseUrl": "../../../../../packages",
+		"paths": {
+			"#/dynamodb": ["./comic-book/dynamodb/src"],
+			"#/valibot": ["./comic-book/valibot/src"],
+			"#/utils/env": ["./utils/env/src"],
+			"#/utils/functions": ["./utils/functions/src"]
+		}
+	}
+}
